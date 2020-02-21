@@ -17,15 +17,16 @@ footer{
   left: 0;
    bottom: 0;
    border: 2px solid black;
+ margin:10px;
 
 }
 div#media{
-  float: right;
-  text-align: center;
-  vertical-align: center;
+  float: right;  
+  padding: 10px;
+  margin: 10px;
 }
-div#ti{
-  width: 800px;
-  height: 100px;
-  float:left;
+
+div#texto-footer{
+  float: left;
+  margin: 0px;
 }
