@@ -4,8 +4,8 @@ img#social{
   height: 50px;
 }
 img#logo-ti{
-  width:100px;
-  height: 100px;
+  width:50px;
+  height: 50px;
   float: left;
 }
 footer{
@@ -13,20 +13,28 @@ footer{
   font-size: 11pt;
   position: fixed;
   width:100%;
-  height: 100px;
+  height: 50px;
   left: 0;
    bottom: 0;
    border: 2px solid black;
  margin:10px;
+ background-color: darkblue;
+ color: aquamarine;
 
+}
+
+
+div#texto-footer-ct{
+  float: left;
+  margin: 21px;
+  width: 34%;
+}
+div#texto-footer-social{
+  margin: 21px;
+  float:left;
+  width: 34%;
+  text-align: end;
 }
 div#media{
-  float: right;  
-  padding: 10px;
-  margin: 10px;
-}
-
-div#texto-footer{
-  float: left;
-  margin: 0px;
+  float: left;    
 }
