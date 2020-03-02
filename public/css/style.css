@@ -56,6 +56,48 @@ table{
  
 }
 
+
+img#social{
+    width: 50px;
+    height: 50px;
+  }
+  img#logo-ti{
+    width:50px;
+    height: 50px;
+    float: left;
+  }
+  footer{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    position: fixed;
+    width:100%;
+    height: 50px;
+    left: 0;
+     bottom: 0;
+     border: 2px solid black;
+   margin:10px;
+   background-color: darkblue;
+   color: aquamarine;
+  
+  }
+  
+  
+  div#texto-footer-ct{
+    float: left;
+    margin: 21px;
+    width: 34%;
+  }
+  div#texto-footer-social{
+    margin: 21px;
+    float:left;
+    width: 34%;
+    text-align: end;
+  }
+  div#media{
+    float: left;    
+  }
+
 h1{
     font-size: 30pt;
 }
+
