@@ -22,6 +22,9 @@ app.get("/sobre",function(req,res){
     res.send("Sla")
 })
 
+app.get("/historia",function(req,res){
+    res.render('admin/historia')
+})
 //outros
 const PORT =8081
 app.listen(PORT,function(){
