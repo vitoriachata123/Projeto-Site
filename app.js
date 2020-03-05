@@ -1,30 +1,37 @@
 const express = require("express");
 const handlebars = require("express-handlebars");
 const bodyParser = require("body-parser");
-const path =require("path");
-const app=express();
+const path = require("path");
+const app = express();
 //const mongoose = require("mongoose");
 //configs
 //body parser
-app.use(bodyParser.urlencoded({extended:true}))
+app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
-//handlebars
-app.engine('handlebars',handlebars({defaultLayout:'main'}))
-app.set('view engine','handlebars');
+    //handlebars
+app.engine('handlebars', handlebars({ defaultLayout: 'main' }))
+app.set('view engine', 'handlebars');
 //public
-app.use(express.static(path.join(__dirname,"public")))
-//rotas
-app.get("/",function(req,res){
+app.use(express.static(path.join(__dirname, "public")))
+    //rotas
+app.get("/", function(req, res) {
     res.render('admin/index')
 })
 
-app.get("/sobre",function(req,res){
+app.get("/sobre", function(req, res) {
     res.send("Sla")
 })
 
-//outros
-const PORT =8081
-app.listen(PORT,function(){
+app.get("/regras", function(req, res) {
+    res.render('admin/regras')
+})
+
+app.get("/encontre", function(req, res) {
+        res.render('admin/encontre')
+    })
+    //outros
+const PORT = 8081
+app.listen(PORT, function() {
     console.log("Servidor Rodando")
 })
 
