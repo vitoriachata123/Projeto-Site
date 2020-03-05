@@ -1,3 +1,6 @@
+tbody{
+  text-align: center;
+}
 #menu ul{
   list-style-type: none;
   margin: 0;
@@ -17,10 +20,10 @@ li a{
     display: block;
     padding: 14px 16px;
     background-color:black ;
-text-decoration: none;
+   text-decoration: none;
 }
 li a:hover{
-    background-color: rgb(14, 236, 25);
+    background-color:  rgba(2, 59, 73, 0.425);
 }
 p#nome{
     font-family: 'Courier New', Courier, monospace;
@@ -41,13 +44,11 @@ img#jov{
 div#cbc{
     text-align: center;
 }
-div#tabela{
-    align: center;
-}
+
 header{
     height:300px ;
-    width:1400px ;
-    background-color: teal;
+    width:1600px ;
+    background-color: rgb(6, 110, 179);
 }
 table{
    top: 0%;
@@ -55,8 +56,10 @@ table{
    margin-bottom: .5em;
  
 }
+/* Cabeçalho*/
+/* body*/
 
-
+/* body*/
 img#social{
     width: 50px;
     height: 50px;
@@ -76,8 +79,8 @@ img#social{
      bottom: 0;
      border: 2px solid black;
    margin:10px;
-   background-color: darkblue;
-   color: aquamarine;
+   background-color:rgb(6, 110, 179);
+   color: white;
   
   }
   
