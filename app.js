@@ -19,7 +19,10 @@ app.get("/",function(req,res){
 })
 
 app.get("/sobre",function(req,res){
-    res.send("Sla")
+    res.render("admin/sobre")
+})
+app.get("/campeonatos",function(req,res){
+    res.render("admin/campeonatos")
 })
 
 app.get("/historia",function(req,res){
