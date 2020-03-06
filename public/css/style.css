@@ -17,16 +17,17 @@ li a{
    color: white;
     display: block;
     padding: 14px 16px;
-    background-color:black ;
+    background-color: rgba(6, 110, 179, 0.418); 
    text-decoration: none;
 }
 li a:hover{
     background-color:  rgba(2, 59, 73, 0.425);
 }
 p#nome{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
  font-size: 40px;
     text-align: center;
+    color: azure;
 }
 img#jov{
     display: block;
@@ -56,6 +57,13 @@ table{
    margin-bottom: .5em;
  
 }
+table#nav{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+ font-size: 16px;
+    text-align: center;
+    color: azure;
+    
+}
 /* Cabeçalho*/
 /* body*/
 
@@ -77,10 +85,10 @@ img#social{
     font-size: 11pt;
   
     width:100%;
-    height: 70px;
+    height: 50px;
     left: 0;
      bottom: 0;
-     border: 2px solid rgb(255, 255, 255);
+     border: 20px solid rgb(6, 110, 179);
    margin:10px;
    background-color:rgb(6, 110, 179);
    color: white;
