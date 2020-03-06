@@ -9,7 +9,7 @@ li{
     list-style-type: none;
     float:right;
 }
-li a{
+td a{
    
     text-align: right;
     display: inline;
@@ -21,7 +21,7 @@ li a{
    text-decoration: none;
    border: 3px solid rgba(2, 59, 73, 0.425);
 }
-li a:hover{
+td a:hover{
     background-color:  rgba(2, 59, 73, 0.425);
 }
 p#nome{
@@ -141,3 +141,4 @@ h1{
   font-size: 20pt;
 }
 
+div#

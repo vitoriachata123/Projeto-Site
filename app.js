@@ -33,7 +33,9 @@ app.get("/campeonatos/volei",function(req,res){
 app.get("/campeonatos/hand",function(req,res){
     res.render("admin/camphand")
 })
-
+app.get("/viagens", function(req, res) {
+    res.render('admin/viagens')
+})
 app.get("/historia", function(req, res) {
     res.render('admin/historia')
 })
