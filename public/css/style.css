@@ -34,8 +34,8 @@ img#jov{
     display: block;
     margin-right: auto;
     position:absolute;
-    height: 175px;
-    width: 175px;
+    height: 120px;
+    width: 200px;
     border-radius: 12px;
     top: 15%; 
     left: 85%;
@@ -70,6 +70,9 @@ td{
 
 /* body*/
 body{
+  width: 97%;
+  border: 0%;
+  padding: 0%;
   background:  rgb(6, 110, 179);
   font: normal 15pt Arial;
 }
@@ -80,6 +83,15 @@ border-radius: 10px;
 padding: 15px;
 width: 100%;
 height: 100%;
+}
+
+
+div.card{
+  background: rgba(185, 185, 185, 0.432);
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
 }
 
 img#social{
@@ -97,7 +109,7 @@ img#social{
   footer{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 11pt;
-  
+
     width:100%;
     height: 50px;
     left: 0px;
@@ -125,6 +137,7 @@ img#social{
   }
 
 h1{
-    font-size: 30pt;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20pt;
 }
 
