@@ -1,36 +1,39 @@
 const express = require("express");
 const handlebars = require("express-handlebars");
 const bodyParser = require("body-parser");
-const path =require("path");
-const app=express();
+const path = require("path");
+const app = express();
 //const mongoose = require("mongoose");
 //configs
 //body parser
-app.use(bodyParser.urlencoded({extended:true}))
+app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
-//handlebars
-app.engine('handlebars',handlebars({defaultLayout:'main'}))
-app.set('view engine','handlebars');
+    //handlebars
+app.engine('handlebars', handlebars({ defaultLayout: 'main' }))
+app.set('view engine', 'handlebars');
 //public
-app.use(express.static(path.join(__dirname,"public")))
-//rotas
-app.get("/",function(req,res){
+app.use(express.static(path.join(__dirname, "public")))
+    //rotas
+app.get("/", function(req, res) {
     res.render('admin/index')
 })
 
-app.get("/sobre",function(req,res){
+app.get("/sobre", function(req, res) {
     res.render("admin/sobre")
 })
-app.get("/campeonatos",function(req,res){
+app.get("/campeonatos", function(req, res) {
     res.render("admin/campeonatos")
 })
 
-app.get("/historia",function(req,res){
+app.get("/historia", function(req, res) {
     res.render('admin/historia')
 })
-//outros
-const PORT =8081
-app.listen(PORT,function(){
+app.get("/localizacao", function(req, res) {
+        res.render("admin/localizacao")
+    })
+    //outros
+const PORT = 8081
+app.listen(PORT, function() {
     console.log("Servidor Rodando")
 })
 
