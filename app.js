@@ -24,6 +24,12 @@ app.get("/sobre",function(req,res){
 app.get("/campeonatos",function(req,res){
     res.render("admin/campeonatos")
 })
+app.get("/campeonatos/futsal",function(req,res){
+    res.render("admin/futsal")
+})
+app.get("/campeonatos/volei",function(req,res){
+    res.render("admin/volei")
+})
 
 app.get("/historia",function(req,res){
     res.render('admin/historia')
