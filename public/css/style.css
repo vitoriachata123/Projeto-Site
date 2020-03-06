@@ -70,6 +70,9 @@ td{
 
 /* body*/
 body{
+  width: 97%;
+  border: 0%;
+  padding: 0%;
   background:  rgb(6, 110, 179);
   font: normal 15pt Arial;
 }
