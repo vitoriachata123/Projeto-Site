@@ -19,6 +19,7 @@ li a{
     padding: 14px 16px;
     background-color: rgba(6, 110, 179, 0.418); 
    text-decoration: none;
+   border: 3px solid rgba(2, 59, 73, 0.425);
 }
 li a:hover{
     background-color:  rgba(2, 59, 73, 0.425);
@@ -57,12 +58,12 @@ table{
    margin-bottom: .5em;
  
 }
-table#nav{
+td{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
  font-size: 16px;
     text-align: center;
     color: azure;
-    
+    background-color:rgba(2, 59, 73, 0.425);
 }
 /* Cabeçalho*/
 /* body*/
