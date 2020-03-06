@@ -21,24 +21,28 @@ app.get("/", function(req, res) {
 app.get("/sobre", function(req, res) {
     res.render("admin/sobre")
 })
-app.get("/campeonatos", function(req, res) {
+app.get("/eventos/campeonatos", function(req, res) {
     res.render("admin/campeonatos")
 })
-app.get("/campeonatos/futsal",function(req,res){
+app.get("/eventos/campeonatos/futsal",function(req,res){
     res.render("admin/futsal")
 })
-app.get("/campeonatos/volei",function(req,res){
+app.get("/eventos/campeonatos/volei",function(req,res){
     res.render("admin/campvol")
 })
-app.get("/campeonatos/hand",function(req,res){
+app.get("/eventos/campeonatos/hand",function(req,res){
     res.render("admin/camphand")
 })
-app.get("/viagens", function(req, res) {
+app.get("/eventos/viagens", function(req, res) {
     res.render('admin/viagens')
 })
 app.get("/historia", function(req, res) {
     res.render('admin/historia')
 })
+app.get("/eventos", function(req, res) {
+    res.render('admin/eventos')
+})
+
 app.get("/localizacao", function(req, res) {
         res.render("admin/localizacao")
     })
