@@ -28,7 +28,10 @@ app.get("/campeonatos/futsal",function(req,res){
     res.render("admin/futsal")
 })
 app.get("/campeonatos/volei",function(req,res){
-    res.render("admin/volei")
+    res.render("admin/campvol")
+})
+app.get("/campeonatos/hand",function(req,res){
+    res.render("admin/camphand")
 })
 
 app.get("/historia", function(req, res) {
