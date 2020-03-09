@@ -45,6 +45,12 @@ app.get("/historia", function(req, res) {
 app.get("/eventos", function(req, res) {
     res.render('admin/eventos')
 })
+app.get("/eventos/campeonatos/campsala", function(req, res) {
+    res.render('admin/campsala') 
+})
+app.get("/eventos/campeonatos/jemg", function(req, res) {
+    res.render('admin/jemg') 
+})
 
 app.get("/localizacao", function(req, res) {
         res.render("admin/localizacao")
