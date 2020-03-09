@@ -33,6 +33,9 @@ app.get("/eventos/campeonatos/volei",function(req,res){
 app.get("/eventos/campeonatos/hand",function(req,res){
     res.render("admin/camphand")
 })
+app.get("/eventos/campeonatos/jemg",function(req,res){
+    res.render("admin/jemg")
+})
 app.get("/eventos/viagens", function(req, res) {
     res.render('admin/viagens')
 })

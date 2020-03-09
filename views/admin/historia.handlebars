@@ -20,5 +20,39 @@ resultantes da iniciativa de voluntários. Tal modificação permitiu um espaço
 amplo à biblioteca.A mesma reforma incluiu modificações e melhorias no espaço da cantina,<br>
 bem como pintura das salas de aula.<br></p> </div>
 <div id="FotoEscola">
+    <h3>Foto da Frente da Escola</h3>
 <img src="/images/Fotos Escola/1270635_1387172354849985_1342380068_o.jpg" id="1" alt="Antiga Frente da Escola" width="400px" height="400px"></img>
 </div>
+
+<style>
+    #FotoEscola{
+        position: absolute;
+        top: 40%;
+        left: 60%;
+        border-radius: 4px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+        transition: .3s;
+    }
+
+    #FotoEscola:hover img{
+        -webkit-transform: scale(1.5);
+         brightness(60%);
+         box-shadow: 0 0 16px rgb(219, 216, 216);
+    }
+
+    #FotoEscola :not(img){
+        position: absolute;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        width: 100%;
+        top: 100%;
+        opacity: 0%;
+        transition: .3s;
+    }
+
+    #FotoEscola:hover :not(img){
+        opacity: 1;
+    }
+
+</style>
